@@ -19,9 +19,27 @@ verified_status: Doğrulanma durumu.
 author_ban_status: Yazar veya içerik üreticinin yasak durumu.
 video_view_count: Video görüntülenme sayısı.
 video_like_count: Video beğeni sayısı.
+
+#İçerik
+
+Veri Setinin Yüklenmesi: TikTok verileri "tiktok_dataset.csv" dosyasından okunmaktadır.
+Veri Keşfi: Sütun isimlerinin incelenmesi ve veri tiplerinin kontrolü.
+Veri Görselleştirme: Seaborn ve Matplotlib kullanarak grafikler oluşturma.
+
+#
+Temel İstatistikler: Video izlenme, beğeni, paylaşım ve yorum sayılarının analizi.
 video_share_count: Video paylaşım sayısı.
 video_download_count: Video indirme sayısı.
 video_comment_count: Video yorum sayısı.
 
+#Kullanılan Teknoloji ve Kütüphaneler
 
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+
+#Kurulum ve Kullanım
+--pip install numpy pandas matplotlib seaborn
 
